@@ -1,7 +1,14 @@
-Dim name, age
+'Run in console: cscript //nologo test.vbs'
 
-name = "John Doe"
+Dim age
+
 age = 30
 
-WScript.Echo "Name: " & name
 WScript.Echo "Age: " & age
+WScript.Echo "Next year, age will be: " & (age + 1)
+
+if age >= 18 then
+    WScript.Echo "You are an adult."
+else
+    WScript.Echo "You are not an adult."
+end if
