@@ -1,4 +1,4 @@
-'Run in console: cscript //nologo test2.vbs'
+'Run in console: cscript //nologo stringComparison.vbs'
 
 Dim a, b
 a = "apple"
